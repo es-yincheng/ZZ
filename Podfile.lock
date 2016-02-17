@@ -1,0 +1,33 @@
+PODS:
+  - Masonry (0.6.4)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - UMengAnalytics-NO-IDFA (3.6.7)
+  - UMengSocial (4.4)
+  - WeiboSDK (3.1.3)
+
+DEPENDENCIES:
+  - Masonry
+  - SDWebImage (~> 3.7)
+  - UMengAnalytics-NO-IDFA
+  - UMengSocial (~> 4.3)
+  - WeiboSDK (from `https://github.com/sinaweibosdk/weibo_ios_sdk.git`)
+
+EXTERNAL SOURCES:
+  WeiboSDK:
+    :git: https://github.com/sinaweibosdk/weibo_ios_sdk.git
+
+CHECKOUT OPTIONS:
+  WeiboSDK:
+    :commit: 61e4bf36084b3fda1f73e4099e6c29bf8758e335
+    :git: https://github.com/sinaweibosdk/weibo_ios_sdk.git
+
+SPEC CHECKSUMS:
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  UMengAnalytics-NO-IDFA: 6d02561a00579b2e37718f204eb81347df5d7b8b
+  UMengSocial: aba7296602310385114d82c255539a7bef3b7ab0
+  WeiboSDK: 5f2a707c4569a64f4641f4171acd712016f24342
+
+COCOAPODS: 0.39.0

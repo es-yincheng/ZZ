@@ -1,0 +1,60 @@
+//
+//  PrefixHeader.pch
+//  ZZ
+//
+//  Created by cheng yin on 15/12/24.
+//  Copyright © 2015年 cheng yin. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//日志开关
+#import "NSLogDefine.h"
+
+//单例
+#import "YCSingleton.h"
+
+//JSON
+#import "JSONKit.h"
+
+#import "CategoryHeader.h"
+
+#import "YCTool.h"
+
+#import "UIButton+WebCache.h"
+
+#import "MobClick.h"
+
+#import "Masonry.h"
+
+//布局
+#define NAVH 64        //导航栏高度
+#define TABBAR 49      //选项卡高度
+#define SCRENW  [UIScreen mainScreen].bounds.size.width
+#define SCRENH  [UIScreen mainScreen].bounds.size.height
+
+#define BOUNDSWITH self.bounds.size.width
+#define BOUNDSHEIG self.bounds.size.height
+
+
+//颜色
+#define RGB(R,G,B)   [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:1.0]
+
+
+//字体
+#define FONTTITLE [UIFont systemFontOfSize:17]
+#define FONTNAME [UIFont systemFontOfSize:15]
+#define FONTINFO [UIFont systemFontOfSize:12]
+
+
+//key和id，screte
+#define WEIXINAPK @"wxef468aed36f02f8f"
+#define WEIXINSECRET @"0334f2adba6043896ab4fe00acd8d232"
+#define QQAPPKEY @"G3lvgrbviSpMRU2z"
+#define QQAPPID @"1105059430"
+#define YOUMENGAPK @"56809ddee0f55a3e3000009f"
+#define BUGLYAPPID @"900015983"
+#define BUGLYAPPKEY @"yIWa6EpMFPafiuF3"
+
+#endif /* PrefixHeader_pch */
